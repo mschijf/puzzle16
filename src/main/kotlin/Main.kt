@@ -1,5 +1,5 @@
-package ms
+import ms.puzzle16.PatternDatabaseFactory
 
 fun main() {
-    println("Hello, World")
+    PatternDatabaseFactory().preCalculate()
 }
